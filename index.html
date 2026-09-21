@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Living Shelf — Support</title>
+<link rel="icon" href="favicon.png" type="image/png">
 <style>
 :root { --bg:#fbf8f1; --fg:#23201a; --muted:#5f5849; --rule:#ddd4c2; --accent:#1f4433; --card:#f4efe3; }
 @media (prefers-color-scheme: dark) { :root { --bg:#14171a; --fg:#e8e4da; --muted:#a49d8e; --rule:#2e3338; --accent:#7fc3a3; --card:#1b1f23; } }
@@ -24,13 +25,17 @@ a { color:var(--accent); }
 .shots figure { margin:0; }
 .shots img { width:100%; height:auto; border:1px solid var(--rule); border-radius:12px; display:block; background:var(--card); }
 .shots figcaption { font-size:0.82rem; color:var(--muted); margin-top:7px; line-height:1.45; }
+.hero { display:flex; align-items:center; gap:18px; margin-bottom:6px; }
+.hero img { width:76px; height:76px; border-radius:17px; box-shadow:0 2px 10px rgba(0,0,0,.18); flex:none; }
+.hero h1 { margin:0; }
 footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--rule); color:var(--muted); font-size:0.9rem; }
 </style>
 </head>
 <body>
 <main>
-<h1>Living Shelf</h1>
-<p class="tag">Find the book you want, right where you left it.</p>
+<div class="hero"><img src="appicon.png" alt="Living Shelf app icon">
+<div><h1>Living Shelf</h1>
+<p class="tag">Find the book you want, right where you left it.</p></div></div>
 
 <div class="card">
 <strong>Need help?</strong><br>
