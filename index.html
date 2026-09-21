@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Living Shelf — Support</title>
+<style>
+:root { --bg:#fbf8f1; --fg:#23201a; --muted:#5f5849; --rule:#ddd4c2; --accent:#1f4433; --card:#f4efe3; }
+@media (prefers-color-scheme: dark) { :root { --bg:#14171a; --fg:#e8e4da; --muted:#a49d8e; --rule:#2e3338; --accent:#7fc3a3; --card:#1b1f23; } }
+* { box-sizing:border-box; }
+body { margin:0; padding:48px 16px 96px; background:var(--bg); color:var(--fg);
+  font:17px/1.65 ui-serif, Georgia, "Times New Roman", serif; }
+main { max-width:660px; margin:0 auto; }
+h1 { font-size:2.1rem; margin:0 0 6px; letter-spacing:-0.01em; }
+.tag { color:var(--muted); font-style:italic; margin:0 0 36px; }
+h2 { font-size:1.15rem; margin:36px 0 10px; color:var(--accent); }
+h3 { font-size:1rem; margin:22px 0 4px; }
+p.a { margin-top:4px; color:var(--muted); }
+ul { padding-left:1.2em; }
+li { margin:6px 0; }
+a { color:var(--accent); }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:10px; padding:18px 20px; margin:28px 0; }
+.shots { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:18px; margin:24px 0 8px; }
+.shots figure { margin:0; }
+.shots img { width:100%; height:auto; border:1px solid var(--rule); border-radius:12px; display:block; background:var(--card); }
+.shots figcaption { font-size:0.82rem; color:var(--muted); margin-top:7px; line-height:1.45; }
+footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--rule); color:var(--muted); font-size:0.9rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Living Shelf</h1>
+<p class="tag">Find the book you want, right where you left it.</p>
+
+<div class="card">
+<strong>Need help?</strong><br>
+Email <a href="mailto:akeath18@gmail.com">akeath18@gmail.com</a>. Please include your device model and iOS version, and describe what you were doing when the problem happened.
+</div>
+
+<h2>A look at the app</h2>
+<div class="shots">
+  <figure><img src="screens/01-search.png" alt="Search screen showing recently added books with their shelf locations" loading="lazy"><figcaption>Search finds a book and tells you which shelf it is on.</figcaption></figure>
+  <figure><img src="screens/02-library.png" alt="My library screen showing counts of books, bookcases and shelves" loading="lazy"><figcaption>Your whole collection, mapped by bookcase and shelf.</figcaption></figure>
+  <figure><img src="screens/03-sections.png" alt="Living room bookcase divided into six sections" loading="lazy"><figcaption>Divide a bookcase into sections and shelves.</figcaption></figure>
+  <figure><img src="screens/04-scan.png" alt="Scan a shelf screen with photo and guided live scan options" loading="lazy"><figcaption>Photograph a shelf, or work through one book at a time.</figcaption></figure>
+  <figure><img src="screens/05-shelf-photos.png" alt="Shelf detail screen showing close-up photographs of a shelf" loading="lazy"><figcaption>Every shelf keeps its own close-up photographs.</figcaption></figure>
+</div>
+
+<h2>Getting started</h2>
+<ul>
+<li><strong>Library</strong> — map a bookcase, divide it into sections, and mark the individual shelves.</li>
+<li><strong>Scan a shelf</strong> — photograph a shelf and Living Shelf reads the spines, matching clear titles automatically.</li>
+<li><strong>Search</strong> — look up a book by title, author, bookcase, or shelf.</li>
+<li><strong>Locate</strong> — opens the library map and shows the shelf a book belongs to.</li>
+</ul>
+
+<h2>Common questions</h2>
+
+<h3>A book was read incorrectly, or was missed entirely.</h3>
+<p class="a">Results the app is unsure about stay under <strong>Needs checking</strong> rather than being saved silently. Open that list to identify or correct a title. During scan review you can remove an incorrect reading with the trash button, and <strong>Undo last removal</strong> brings it back. Removing a result from a scan never deletes a book you already saved.</p>
+
+<h3>The grid doesn't line up with my shelves.</h3>
+<p class="a">In library or section setup, choose <strong>Choose grid area</strong>, then <strong>Angle grid and adjust lines</strong>. Drag the outline corners to match your photo, and use <strong>Rows</strong> or <strong>Columns</strong> to move a single divider. Select a dot and use the arrow buttons for fine adjustment. Shelves can be removed or restored individually, so bookcases with uneven columns still map correctly.</p>
+
+<h3>Can I use it without an internet connection?</h3>
+<p class="a">Yes. Reading book spines happens entirely on your device. Online search only adds catalog details and cover art, and can be turned off in <strong>Settings</strong>.</p>
+
+<h3>Can I share a library with someone else?</h3>
+<p class="a">Yes. A library can be shared through your iCloud account with people you invite. You can stop sharing at any time.</p>
+
+<h3>How do I move my library to a new device?</h3>
+<p class="a">Turn on iCloud sync and sign in to the same Apple Account on the new device. You can also export a library backup file and open it on the other device.</p>
+
+<h3>Will my books be lost if I delete the app?</h3>
+<p class="a">Deleting the app removes the library stored on that device. Export a backup first if you want to keep it.</p>
+
+<h2>Privacy</h2>
+<p>Living Shelf has no account, no analytics, and no advertising. Your library stays on your device and, if you enable sync, in your own iCloud account. See the <a href="privacy.html">privacy policy</a>.</p>
+
+<h2>Requirements</h2>
+<p>iOS 17 or later, on iPhone or iPad.</p>
+
+<footer>Living Shelf · Adam Keath</footer>
+</main>
+</body>
+</html>
